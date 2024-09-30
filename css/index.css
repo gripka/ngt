@@ -1,0 +1,133 @@
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    width: 1440px;
+    height: 90px;
+}
+
+.rectangle-copy-2 {
+    position: absolute;
+    height: 100%;
+    width: 3%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 97%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.search-icon {
+    position: absolute;
+    height: 38.29%;
+    width: 1.15%;
+    top: 30.14%;
+    right: 0.91%;
+    bottom: 31.57%;
+    left: 97.95%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.courses,
+.mentors,
+.blog,
+.community {
+    letter-spacing: 1.5px;
+    line-height: 22px;
+    opacity: 0.8;
+    mix-blend-mode: normal;
+    padding: 0; /* Remove qualquer padding */
+    margin: 0; /* Remove qualquer margem */
+}
+
+.courses-parent {
+    padding: 0;
+    align-items: center;
+    display: flex;
+    gap: 30px; /* Aumenta o espaçamento entre os links */
+    position: absolute;
+    width: 36.26%;
+    top: calc(50% - 11.5px);
+    right: 40.5%;
+    left: 23.25%;
+    height: 22px;
+}
+
+.design-sem-nome-62-1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 154px;
+    height: 41px;
+    object-fit: cover;
+}
+
+.rectangle-copy-2-parent {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    gap: 20px;
+    position: absolute;
+    height: 45.56%;
+    width: 95%;
+    top: 27.78%;
+    right: 2.5%;
+    bottom: 26.67%;
+    left: 2.5%;
+}
+
+.discord-1-icon {
+    border-radius: 5px;
+    object-fit: cover;
+    display: inline-block;
+    outline: none; /* Desativa o contorno */
+    padding: 0; /* Remove qualquer padding */
+    margin: 0; /* Remove qualquer margem */
+    vertical-align: middle; /* Alinha verticalmente no meio */
+}
+
+.discord-1-icon:hover,
+.discord-1-icon:focus {
+    outline: none; /* Remove o contorno no foco */
+    background: none; /* Remove o background no hover */
+    box-shadow: none; /* Remove qualquer sombra */
+}
+
+.rectangle-parent {
+    width: 100%;
+    position: relative;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #000;
+    font-family: Poppins;
+}
+
+.courses-parent a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    outline: none; /* Remove o contorno padrão */
+    box-shadow: none; /* Remove qualquer sombra */
+    background: none; /* Remove qualquer fundo */
+    border: 2px solid transparent; /* Adiciona um contorno transparente */
+}
+
+.courses-parent a.menu-item:hover,
+.courses-parent a.menu-item:focus {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    outline: none; /* Remove o contorno no foco */
+    box-shadow: none; /* Remove qualquer sombra */
+    border: 2px solid #000; /* Adiciona um contorno preto */
+}
